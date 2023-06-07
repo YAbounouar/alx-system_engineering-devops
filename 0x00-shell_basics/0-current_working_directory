@@ -1,2 +1,2 @@
-# Get the current working directory
+#!/bin/bash
 current_directory=$(pwd)
