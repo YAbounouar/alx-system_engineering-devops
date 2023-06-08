@@ -1,2 +1,2 @@
 #!/bin/bash
-cp -nv --parents *.html ../
+find . -type f -name *.html -exec cp -v --parents *.html ../
