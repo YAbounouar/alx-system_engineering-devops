@@ -1,2 +1,2 @@
 #!/bin/bash
-tr '[:alpha:]' '[:alpha:]' <<< "$1" | sed 's/[a-z]/$((a-z+13))/g; s/[A-Z]/$((A-Z+13))/g'
+tr '[:alpha:]' 'N-ZA-Mn-za-m'
