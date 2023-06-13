@@ -1,2 +1,2 @@
 #!/bin/bash
-tr '[:alpha:]' 'N-ZA-Mn-za-m'
+tr '[:alpha:]' 'N-ZA-Mn-za-m' 'A-Za-z' 
